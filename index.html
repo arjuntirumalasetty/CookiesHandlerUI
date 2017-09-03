@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <title>LoginCookies</title>
+        <script src="bin/vendor.bundle.js"></script>
+        <script src="bin/app.bundle.js"></script>
+        
+    </head>
+    <body ng-app="login">
+        <div ng-controller="loginController as ctrl">
+           <div> 
+           User Name :  <input type='text' ng-model='userName' />
+           Password  : <input type ='password' ng-model='password'/>
+           </div>
+           <div>
+                <button ng-click="loginData()">Login</button>
+           </div>
+        </div>
+    </body>
+</html>
